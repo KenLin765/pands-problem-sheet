@@ -17,7 +17,7 @@ def collatz(number):
             #print(number)
             return (print(int(number)))
 
-        elif nnumber % 2==1:
+        elif number % 2==1:
             number = (3*number+1) 
             #print(number)
             return (print(int(number)))
