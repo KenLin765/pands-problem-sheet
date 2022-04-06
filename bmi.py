@@ -1,3 +1,5 @@
+## Kenneth Linehan, 2022
+
 ## Solution to weekly task 02
 
 ##Idea for code from website - https://github.com/mindninjaX/Python-Projects-for-Beginners/blob/master/BMI%20Calculator/BMI%20Calculator.py
