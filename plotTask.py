@@ -5,8 +5,9 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+# Imported modules in order to plot functions
 
-#I start by defining each function needed
+#I start by defining each function needed, based on task
 def f(x):
     return x
 
@@ -17,6 +18,7 @@ def h(x):
     return x*x*x
 
 x = np.array(range(1, 5))
+## Inbuilt fuction in numpy to create an array - https://numpy.org/doc/stable/reference/generated/numpy.array.html
 
 functions = [f, g, h]
 

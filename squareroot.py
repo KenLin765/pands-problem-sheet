@@ -2,19 +2,29 @@
 # Program to take a positive floating point number as input and outputs an approximation of its square root
 
 # setting a number for user input and converting to float
+
+
+# Tutorial which I used for working how to setup the function - https://tutorialspoint.dev/algorithm/algorithms/square-root-of-a-perfect-square
+# Returns the square root of n. 
+def sqrt(n): 
+    # Sqrt function created to square root value
+        x = n 
+        y = 1
+          
+        # e decides the accuracy level 
+        e = 0.1
+        while(x - y > e): 
+      
+            x = (x + y)/2
+            y = n / x 
+            # Formula used to calculate square root, manually multiplies number by itself
+        return x 
+  
 n = float(input("Please enter a positive number: "))
+# Float is an inbuilt function used to convert a number to string - https://docs.python.org/3/library/functions.html#float
 
-## I used this source to figure out start of the issue - https://python.pages.doc.ic.ac.uk/2021/lessons/lesson04/05-break/06-newtonsolution.html
-#guess is used to hold the number
-guess = n
-epsilon = 0.01
-
-#epsilon ensures that a positive number is entered
-
-while True:
-    old_guess = guess
-    guess = (guess + n/guess) * 0.5
-    if abs(guess - old_guess) < epsilon:
-        print("The square root of ",n," is approx.",guess,)
-        ##print the answer
-        break
+print("Square root of", n, "is", 
+              round(sqrt(n), 1)) 
+              # Rounds the number to one point
+              # Prints the number user gave and the square root of the number
+  

@@ -96,17 +96,23 @@ Overview of solution
 Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/squareroot.py
 
 1. Asks user to enter a number, in order to to output a approximation of it's square root
-2.
-3.
-4.
-5.
+2. Uses inbuilt float function to convert number to floating point number
+3. The square root function has been manually created to process the function
+4. The code will then report back to the user the number they gave, and the square root of it.
 
 
-### Problem 7 Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
+### Problem 7 Write a program that reads in a text file and outputs the number of e's it contains. 
 
-Overview of solution
+Overview of solution -
+1. The program will take a document and read the amount of e's located in it.
+2. I had both the txt file and program in same folder but file could be adapted to run from a different drive if necessary
+3. Program will count the amount of "e" in a file.
+4. It will then print the amount of occurences of the letter to the user.
 
-Link to file -
+
+The sample given which I have used is Moby Dick and to calculate the amount of e's in the document
+
+Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/countEs.py
 
 
 ### Problem 8 - Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
