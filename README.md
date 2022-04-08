@@ -66,7 +66,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/collat
 
 
 
-### Problem 4. Write a program that outputs whether or not today is a weekday.
+Problem 4. Write a program that outputs whether or not today is a weekday.
 
 
 An example of running this program on a Thursday is given below.
@@ -94,7 +94,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/weekda
 
 
 
-### Problem 6 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.You should create a function called <tt>sqrt</tt> that does this. This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).
+Problem 5 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.You should create a function called <tt>sqrt</tt> that does this. This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).
 
 Overview of solution
 
@@ -108,7 +108,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/square
 
 
 
-### Problem 7 Write a program that reads in a text file and outputs the number of e's it contains. 
+Problem 6 Write a program that reads in a text file and outputs the number of e's it contains. 
 
 Overview of solution -
 1. The program will take a document and read the amount of e's located in it.
@@ -124,13 +124,13 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/countE
 
 
 
-### Problem 8 - Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+Problem 7 - Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 
 Overview of solution -
 1. Imports the numpy and matplotlib.pyplot libraries in order to plot the functions
 2. Code sets the 3 main functions, for f, g and h in order to plot graph
 3. Uses numpy to create an array between 1 and 5.
-4.
+4. Produces a graph, for the user.
 
 Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/plotTask.py
 
