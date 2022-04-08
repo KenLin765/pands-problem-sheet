@@ -1,12 +1,10 @@
-# Problem Set 2022
+Problem Set 2022
 
 This contains solutions to a set of different programs.
 
-## Getting Started
+Please see link to my repository - https://github.com/KenLin765/pands-problem-sheet
 
-Please see link to my repository 
-
-### Problem 1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py The inputs are the person's height in centimetres and weight in kilograms.
+Problem 1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py The inputs are the person's height in centimetres and weight in kilograms.
 
 
 Overview of solution
@@ -21,11 +19,11 @@ Overview of solution
 Link To Problem - https://github.com/KenLin765/pands-problem-sheet/blob/main/bmi.py
 
 
-### Problem 2. Write a program that asks a user to input a string and outputs every second letter in reverse order.
+Problem 2. Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
-## Example of sentence - The quick brown fox jumps over the lazy dog.
+Example of sentence - The quick brown fox jumps over the lazy dog.
 
-## Output of solution - .o zletrv pu o wr cu h
+Output of solution - .o zletrv pu o wr cu h
 
 Overview of solution
 
@@ -37,11 +35,13 @@ Overview of solution
 Link- https://github.com/KenLin765/pands-problem-sheet/blob/main/secondstring.py
 
 
-### Problem 3. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
-### At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 
-### Have the program end if the current value is one.
+Problem 3. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+
+Have the program end if the current value is one.
 
 
 ### Code Example
@@ -61,6 +61,9 @@ Overview of solution
 4. Outputs the numbers, if even, divided by two, but if it is odd, multiply it by three and add one
 
 Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/collatz.py
+
+
+
 
 
 ### Problem 4. Write a program that outputs whether or not today is a weekday.
@@ -89,6 +92,8 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/weekda
 
 
 
+
+
 ### Problem 6 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.You should create a function called <tt>sqrt</tt> that does this. This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).
 
 Overview of solution
@@ -99,6 +104,8 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/square
 2. Uses inbuilt float function to convert number to floating point number
 3. The square root function has been manually created to process the function
 4. The code will then report back to the user the number they gave, and the square root of it.
+
+
 
 
 ### Problem 7 Write a program that reads in a text file and outputs the number of e's it contains. 
@@ -115,5 +122,16 @@ The sample given which I have used is Moby Dick and to calculate the amount of e
 Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/countEs.py
 
 
+
+
 ### Problem 8 - Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+Overview of solution -
+1. Imports the numpy and matplotlib.pyplot libraries in order to plot the functions
+2. Code sets the 3 main functions, for f, g and h in order to plot graph
+3. Uses numpy to create an array between 1 and 5.
+4.
+
+Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/plotTask.py
+
 
