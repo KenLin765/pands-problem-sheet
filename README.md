@@ -4,7 +4,7 @@ This contains solutions to a set of different programs.
 
 Please see link to my repository - https://github.com/KenLin765/pands-problem-sheet
 
-Problem 1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py The inputs are the person's height in centimetres and weight in kilograms.
+### Problem 1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py The inputs are the person's height in centimetres and weight in kilograms.
 
 
 Overview of solution
@@ -19,7 +19,7 @@ Overview of solution
 Link To Problem - https://github.com/KenLin765/pands-problem-sheet/blob/main/bmi.py
 
 
-Problem 2. Write a program that asks a user to input a string and outputs every second letter in reverse order.
+### Problem 2. Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
 Example of sentence - The quick brown fox jumps over the lazy dog.
 
@@ -37,7 +37,7 @@ Link- https://github.com/KenLin765/pands-problem-sheet/blob/main/secondstring.py
 
 
 
-Problem 3. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+### Problem 3. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 
@@ -66,7 +66,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/collat
 
 
 
-Problem 4. Write a program that outputs whether or not today is a weekday.
+### Problem 4. Write a program that outputs whether or not today is a weekday.
 
 
 An example of running this program on a Thursday is given below.
@@ -94,7 +94,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/weekda
 
 
 
-Problem 5 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.You should create a function called <tt>sqrt</tt> that does this. This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).
+### Problem 5 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.You should create a function called <tt>sqrt</tt> that does this. This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods).
 
 Overview of solution
 
@@ -108,7 +108,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/square
 
 
 
-Problem 6 Write a program that reads in a text file and outputs the number of e's it contains. 
+### Problem 6 Write a program that reads in a text file and outputs the number of e's it contains. 
 
 Overview of solution -
 1. The program will take a document and read the amount of e's located in it.
@@ -124,7 +124,7 @@ Link to file - https://github.com/KenLin765/pands-problem-sheet/blob/main/countE
 
 
 
-Problem 7 - Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+### Problem 7 - Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 
 Overview of solution -
 1. Imports the numpy and matplotlib.pyplot libraries in order to plot the functions
